@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-emfstore') {
+orgs.newOrg('modeling.emfstore', 'eclipse-emfstore') {
   settings+: {
     description: "",
     name: "Eclipse EMFStore",
